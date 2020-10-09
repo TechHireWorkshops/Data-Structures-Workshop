@@ -2,7 +2,7 @@
 
 ![](https://i.pinimg.com/originals/e0/dd/3b/e0dd3bf212283a91a392972aa59caf9c.jpg)
 
-Data structures are a variety of containers and organized data storage systems. Different data structures excel at storing different types of data and serving different functions.
+Data structures are a variety of containers and organized data storage systems. Different data structures are well suited for serving different functions.
 
 ## Arrays
 
