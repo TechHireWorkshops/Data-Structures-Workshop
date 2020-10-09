@@ -126,14 +126,26 @@ class LinkedList {
     return -1;
   }
 
+  removeNodeFromEnd = () => {
+    if (this.head === null) {
+      return 'list is empty';
+    } else {
+      let currentNode = this.head;
+      let prev;
+      while (currentNode.next) {
+        prev = currentNode;
+        currentNode = currentNode.next;
+      }
+      prev.next = null;
+    }
+  };
 }
 
+let list = new LinkedList();
+list.add(1);
+list.add(2);
+list.add(3);
+list.add(4);
+list.add(5);
 
-let list = new LinkedList
-list.add(1)
-list.add(2)
-list.add(3)
-list.add(4)
-list.add(5)
-
-console.log(list)
+console.log(list);
