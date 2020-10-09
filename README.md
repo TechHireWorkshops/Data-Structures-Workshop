@@ -133,7 +133,7 @@ const list = {
 ## Hash Tables
 Hash tables are data structures where key-value pairs are stored in an array. The key is converted by a hash function into the index of the array, between 0 and the size of the array.
 
-![] (https://www.tutorialspoint.com/data_structures_algorithms/images/hash_function.jpg)
+![](https://www.tutorialspoint.com/data_structures_algorithms/images/hash_function.jpg)
 
 Maybe we're storing data using numerical values as a key, and we decide that our hash function will be:
 
