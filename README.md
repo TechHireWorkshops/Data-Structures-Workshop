@@ -17,7 +17,7 @@ Arrays are the most famous and widely used data type.
 
 ### Advantages of arrays
 
-- Arrays can store multiple data points of similar types
+- Arrays can store multiple data points of any type
 - The ability to access information from any point in the array
 
 ### Disadvantages of arrays
@@ -38,7 +38,7 @@ Stacks, like arrays, are also a collection of similar data. In a stack though, d
 
 ### Advantages of stacks
 
-- Stacks can store multiple data points of similar types
+- Stacks can store multiple data points of any type
 - All stack operations take O(1) time complexity
 
 ### Disadvantages of stacks
@@ -64,7 +64,7 @@ Queues are a similar structure to stacks, only with a First In First Out (FIFO) 
 
 ### Advantages of queues
 
-- Nice if it's what you need.
+- Stacks can store multiple data points of any type
 
 ### Disadvantages of queues
 
@@ -122,7 +122,7 @@ const list = {
 ### Disadvantages of linked lists
 
 - It uses more memory than an array due to storage of the pointer
-- Searching through a linked list is slow
+- Searching through a linked list is slow, can only traverse through the list and not access from anywhere
 
 ### Uses of linked lists
 
@@ -164,6 +164,7 @@ With chaining, each value in the hash table is an array.  In the case of collisi
 ### Disadvantages of hash tables
 
 - Hash collisions will occur, requiring chaining, linear probing and/or resizing
+- Can not have a null key
 
 ### Uses of hash tables
 
@@ -200,3 +201,4 @@ Each node in a tree has at least 3 properties:
 ### Uses of trees
 
 - Used in many search applications where data is constantly entering and leaving.
+

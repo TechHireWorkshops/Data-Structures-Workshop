@@ -51,7 +51,6 @@ class BinarySearchTree {
     }
     return false;
   }
-
 }
 
 let tree = new BinarySearchTree();
@@ -63,6 +62,6 @@ tree.insert(11);
 tree.insert(2);
 tree.insert(16);
 tree.insert(7);
-console.log(tree.find(15))
+console.log(tree.find(10));
 
 console.table(tree.root);
