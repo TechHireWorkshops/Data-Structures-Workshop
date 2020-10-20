@@ -117,12 +117,18 @@ Heaps are a special case of binary tree where each parent node has the same rela
 Two of the most common are:
 
 **Min-heap**
+
 ![](https://www.tutorialspoint.com/data_structures_algorithms/images/min_heap_example.jpg)
 
 **Max-heap**
+
 ![](https://www.tutorialspoint.com/data_structures_algorithms/images/max_heap_example.jpg)
 
 While heaps can be constructed using nodes, as we say for our binary tree, they are often made from arrays, as they can be easier to work with.
+
+The max heap above can be written as
+
+	[44,42,35,33,31,19,27,19,26,14]
 
 ### Basic functions
 
