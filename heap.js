@@ -40,7 +40,7 @@ class MaxHeap {
       return this.items[0];
     }
     if (item > this.items[0]) {
-      return 'not in heap'
+      return 'not in heap';
     }
     let parents = [];
     parents.push(0);
@@ -49,7 +49,7 @@ class MaxHeap {
         return 'not in heap';
       }
       if (this.items[Math.floor((parents[0] + 1) * 2 - 1)] === item) {
-        found = this.items[Math.floor((parents[0] + 1) / 2 - 1)];
+        found = this.items[Math.floor((parents[0] + 1) * 2 - 1)];
         break;
       } else {
         if (this.items[Math.floor((parents[0] + 1) * 2 - 1)]) {
@@ -66,7 +66,7 @@ class MaxHeap {
       }
       parents.shift();
     }
-    return {value: found, index: this.items.indexOf(found)}
+    return { value: found, index: this.items.indexOf(found) };
   }
 
   heapify(arr) {
@@ -79,5 +79,5 @@ class MaxHeap {
 
 let heap = new MaxHeap();
 console.log(heap.heapify([17, 1, 2, 3, 7, 25, 36, 19, 100]));
-console.log(heap.remove(17))
+console.log(heap.remove(17));
 console.log(heap.find(327));

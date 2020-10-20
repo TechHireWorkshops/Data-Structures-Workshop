@@ -173,6 +173,18 @@ While heaps can be constructed using nodes, as we say for our binary tree, they 
 The max heap above can be written as
 
 	[44,42,35,33,31,19,27,19,26,14]
+	
+in which each child node is at
+
+	(i+1)*2 or (i+1)*2-1
+
+where i is the index of the parent node.
+
+Similarly, each parent node is at
+
+	Math.floor((i-1)/2)
+	
+when i is the index of the child node.
 
 ### Basic functions
 
