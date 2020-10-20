@@ -45,7 +45,7 @@ class Graph {
 
 let graph = new Graph();
 
-graph.addNode({id:1, name:'A'});
+graph.addNode('A');
 graph.addNode('B');
 graph.addNode('D');
 graph.addNode('C');
