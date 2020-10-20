@@ -172,7 +172,7 @@ While heaps can be constructed using nodes, as we say for our binary tree, they 
 
 The max heap above can be written as
 
-	[44,42,35,33,31,19,27,19,26,14]
+	[44,42,35,33,31,19,27,10,26,14]
 	
 in which each child node is at
 
