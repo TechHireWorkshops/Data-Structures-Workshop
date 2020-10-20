@@ -182,7 +182,7 @@ where i is the index of the parent node.
 
 Similarly, each parent node is at
 
-	Math.floor((i-1)/2)
+	Math.floor((i+1)/2-1)
 	
 when i is the index of the child node.
 
