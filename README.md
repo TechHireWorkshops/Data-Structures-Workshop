@@ -79,6 +79,50 @@ Queues are a similar structure to stacks, only with a First In First Out (FIFO) 
 - Many types of waiting room scenarios
 - A shared resource like an office printer
 
+## Graphs
+Graphs are non-linear systems of data points connected to each other. The data exists as a series of nodes, or vertices, connected to each other by edges.
+
+![](https://www.geeksforgeeks.org/wp-content/uploads/undirectedgraph.png)
+
+Graphs are often defined by the set of vertices and edges that they are comprised of.  In the example above, we would have a vertex list of:
+
+`V = [0,1,2,3,4]`
+
+and an edge list, or adjacency list, of 
+
+`E = [[0,1], [1,2], [2,3], [3,4], [0,4], [1,4], [1,3]]`
+
+You might also see them together, like this:
+
+	{
+	0:[1,4]
+	1:[0,2,3,4],
+	2:[1,3],
+	3:[1,2,4],
+	4:[0,1,3],
+	}
+
+### Basic functions
+
+- Addition/Removal of a vertex
+- Addition/Removal of an edge
+- Access vertex
+
+### Advantages of graphs
+
+- Make it easy to understand complex networks
+- Graphs can be used to find ideal paths between data
+- Graphs can be used to understand relationships between data
+
+### Disadvantages of graphs
+
+- Can be time and space intensive to traverse and map graphs
+
+### Uses of graphs
+
+- Used to represent networks like phone systems
+- Used to visualize connected on social media sites
+
 ## Trees
 Trees are a data structure where data is organized and linked hierarchically. The nodes, or leaves, in a tree can be linked to more than 1 other node.  There are many types of trees, one of the most common is the binary search tree.
 
@@ -143,53 +187,9 @@ The max heap above can be written as
 ### Disadvantages of heaps
 
 - Searching heaps can be costly
-- 
+- Many heaps require unique node values
 
 ### Uses of heaps
 
 - Used in heapsort
 - Used for priority queues
-
-## Graphs
-Graphs are non-linear systems of data points connected to each other. The data exists as a series of nodes, or vertices, connected to each other by edges.
-
-![](https://www.geeksforgeeks.org/wp-content/uploads/undirectedgraph.png)
-
-Graphs are often defined by the set of vertices and edges that they are comprised of.  In the example above, we would have a vertex list of:
-
-`V = [0,1,2,3,4]`
-
-and an edge list, or adjacency list, of 
-
-`E = [[0,1], [1,2], [2,3], [3,4], [0,4], [1,4], [1,3]]`
-
-You might also see them together, like this:
-
-	{
-	0:[1,4]
-	1:[0,2,3,4],
-	2:[1,3],
-	3:[1,2,4],
-	4:[0,1,3],
-	}
-
-### Basic functions
-
-- Addition/Removal of a vertex
-- Addition/Removal of an edge
-- Access vertex
-
-### Advantages of graphs
-
-- Make it easy to understand complex networks
-- Graphs can be used to find ideal paths between data
-- Graphs can be used to understand relationships between data
-
-### Disadvantages of graphs
-
-- Can be time and space intensive to traverse and map graphs
-
-### Uses of graphs
-
-- Used to represent networks like phone systems
-- Used to visualize connected on social media sites

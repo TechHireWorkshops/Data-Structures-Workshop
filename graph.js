@@ -45,10 +45,11 @@ class Graph {
 
 let graph = new Graph();
 
-graph.addNode('A');
+graph.addNode({id:1, name:'A'});
 graph.addNode('B');
 graph.addNode('D');
 graph.addNode('C');
+graph.display();
 
 graph.addEdge('A', 'B');
 graph.addEdge('A', 'D');
