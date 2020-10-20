@@ -39,6 +39,9 @@ class MaxHeap {
     if (this.items[0] === item) {
       return this.items[0];
     }
+    if (item > this.items[0]) {
+      return 'not in heap'
+    }
     let parents = [];
     parents.push(0);
     while (true) {
@@ -77,5 +80,4 @@ class MaxHeap {
 let heap = new MaxHeap();
 console.log(heap.heapify([17, 1, 2, 3, 7, 25, 36, 19, 100]));
 console.log(heap.remove(17))
-console.log(heap.insert(33))
 console.log(heap.find(327));

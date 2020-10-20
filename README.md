@@ -143,6 +143,7 @@ The max heap above can be written as
 ### Disadvantages of heaps
 
 - Searching heaps can be costly
+- 
 
 ### Uses of heaps
 
